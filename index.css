@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+#menu {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+a{
+    color: darkcyan;
+}
+#menu a{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.button {
+    background-color: lightcyan;
+    color: darkcyan;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    border: 1px solid darkcyan;
+}
+.pageHeading {
+    font-size: 100px;
+    margin: 0;
+    padding-top: 200px;
+    color: lightcyan;
+    text-shadow: 2px 2px darkcyan;
+}
+#hero{
+    text-align: center;
+    background-image: url("img/banner.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.blogPostPreview {
+    width: 300px;
+    text-align: center;
+    border: 1px dotted lightgray;
+}
+
+.blogPostPreview > img{
+    width: 300px;
+}
+
+.blogPostPreview > h3 {
+    color: darkcyan;
+}
+
+.blogPostPreview > p{
+    color: darkcyan;
+}
+
+#blogPostList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.centeredContentWrapper {
+    margin: auto;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    color: lightcyan;
+}
+
+.footerHeading {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer a {
+    font-size: 16px;
+}
+
+.blogPostPreview:hover{
+    background-color: lightcyan;
+    transition: 1s;
+}
+
+.blogPostPreview{
+    transition: 1s;
+}
